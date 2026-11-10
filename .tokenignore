@@ -1,0 +1,5 @@
+# Generated manifests and update files
+delta_manifest.json
+updates.json
+manifest_mods.json
+*.json
