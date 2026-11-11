@@ -3,6 +3,16 @@
   "id": "Create_Clockwork_Empire",
   "versions": [
     {
+      "version": "2.0.1",
+      "name": "2.0.1",
+      "tag_name": "v2.0.1",
+      "released": "2026-11-11T21:05:47Z",
+      "changelog": "### Что изменено в v2.0.1\n- **Удалён Spatial GUI** (`spatial-gui-1.11.0+1.21.1-neoforge.jar` и конфиги) — убран 3D-рендер экранов инвентаря и контейнеров из-за высокой нагрузки и плохой читаемости тултипов предметов.\n- **Синхронизация клиента и сервера** — на сервер добавлены отсутствовавшие `puddleflood` и `creategoggles` (исправлен баг с фиолетово-чёрными кубами вместо частиц воды/крови).\n- **Исправлено обновление через Halo Launcher** — удалён нерабочий `delta_manifest.json` и лишние файлы из репозитория; обновление теперь корректно загружает релизный архив и автоматически удаляет убранные моды по `manifest_mods.json`.",
+      "url": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.0.1/Create_Clockwork_Empire-2.0.1.zip",
+      "download_url": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.0.1/Create_Clockwork_Empire-2.0.1.zip",
+      "downloadUrl": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.0.1/Create_Clockwork_Empire-2.0.1.zip"
+    },
+    {
       "version": "2.0.0",
       "name": "2.0.0",
       "tag_name": "v2.0.0",
