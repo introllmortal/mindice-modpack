@@ -3,6 +3,25 @@
   "id": "Create_Clockwork_Empire",
   "versions": [
     {
+      "version": "2.0.2",
+      "name": "2.0.2",
+      "tag_name": "v2.0.2",
+      "released": "2026-11-12T18:17:00Z",
+      "changelog": "### Что изменено в v2.0.2\n- **Исправлено удаление Spatial GUI через лаунчер** — добавлен `delta_manifest` на удаление `mods/spatial-gui-1.11.0+1.21.1-neoforge.jar`, `config/spatial-gui.json5` и `config/spatial-gui/profiles.json5` (ранее удалённый мод оставался у игроков из-за отсутствия `manifest_mods.json` в v2.0.0).\n- **Исправлено отображение версии** — убраны лишние кавычки в `instance.cfg` и настроено корректное обновление `ManagedPackVersionID` / `ManagedPackVersionName` до `2.0.2` через Delta Sync.\n- **Включает все изменения v2.0.1** — синхронизация модов клиента и сервера (`puddleflood`, `creategoggles`) и очистка репозитория.",
+      "url": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.0.2/Create_Clockwork_Empire-2.0.2.zip",
+      "download_url": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.0.2/Create_Clockwork_Empire-2.0.2.zip",
+      "downloadUrl": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.0.2/Create_Clockwork_Empire-2.0.2.zip",
+      "delta_manifest": {
+        "version": "2.0.2",
+        "files": [],
+        "remove": [
+          "mods/spatial-gui-1.11.0+1.21.1-neoforge.jar",
+          "config/spatial-gui.json5",
+          "config/spatial-gui/profiles.json5"
+        ]
+      }
+    },
+    {
       "version": "2.0.1",
       "name": "2.0.1",
       "tag_name": "v2.0.1",
