@@ -3,6 +3,16 @@
   "id": "Create_Clockwork_Empire",
   "versions": [
     {
+      "version": "2.1.0",
+      "name": "2.1.0",
+      "tag_name": "v2.1.0",
+      "released": "2026-11-21T20:01:33Z",
+      "changelog": "### Что изменено в v2.1.0\n- **Обновлены 52 мода** (42 общих и 10 клиентских), включая `AllTheLeaks`, `Apothic Attributes`, `Architectury`, `CBC Enhanced Shells`, `Create Encased`, `Create: Let The Adventure Begin`, `FTB Library/Quests/Teams`, `KubeJS`, `Occultism`, `Particular`, `Reliquary`, `Sophisticated Backpacks/Core/Storage`, `Streams Reflowing`, `Supplementaries`, `The Bumblezone`, `Waystones`, `Entity Culling`, `FancyMenu`, `Subtle Effects` и др.\n- **Единые слоты аксессуаров (`Accessories` + `Accessories Compat Layer`)** — моды `Relics` / `Reliquified Artifacts` и `Aether` теперь корректно работают вместе без потери прогресса и конфликтов слотов.\n- **Удобство инвентаря** — `Inventory Essentials` заменён на `Inventory Sorter` и `Stack Refill` (сортировка колёсиком/кнопкой и автоподстановка стаков).\n- **Новые структуры Overworld и баланс генерации** — добавлены `When Dungeons Arise` и `Moog's Voyager Structures`, плотность спавна структур настроена (`spreadFactor = 1.55`).\n- **Новые анимации игрока (`Punchy Moves 1.0.9`)** — заменён `Not Enough Animations`, включён ресурспак `Fluid & Foolish 1.0.1` вместо `FA+Player`, снова включена дрожь замёрзшей кожи в `Skin Weathering` (`enableShaking: true`), убрана кнопка настроек Supplementaries из главного меню.\n- **Очистка дублей частиц** — удалены `Visuality` и `Falling Leaves`, уменьшены лишние эффекты и подправлен лимит VoiceChat (`tcp_rate_limit=-1`).\n- **Полная синхронизация с сервером SolidHost и вайп** — 440 общих модов и общие конфиги полностью синхронизированы, на сервере открыт свежий мир.",
+      "url": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.1.0/Create_Clockwork_Empire-2.1.0.zip",
+      "download_url": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.1.0/Create_Clockwork_Empire-2.1.0.zip",
+      "downloadUrl": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.1.0/Create_Clockwork_Empire-2.1.0.zip"
+    },
+    {
       "version": "2.0.2",
       "name": "2.0.2",
       "tag_name": "v2.0.2",
