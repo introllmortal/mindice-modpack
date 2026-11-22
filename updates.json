@@ -3,6 +3,16 @@
   "id": "Create_Clockwork_Empire",
   "versions": [
     {
+      "version": "2.1.3",
+      "name": "2.1.3",
+      "tag_name": "v2.1.3",
+      "released": "2026-11-22T08:47:19Z",
+      "changelog": "### Что изменено в v2.1.3\n- **Исправлен сброс ресурспаков при запуске:** убрана ранняя миграция из `startup_scripts` (из-за которой при загрузке могли сбрасываться наборы ресурсов) и перенесена в безопасный `ClientEvents.tick` (`sync_modpack_resourcepacks.js`). При первом запуске автоматически восстанавливаются все 17 ресурспаков сборки в правильном порядке (с `Fluid & Foolish 1.0.1` вместо `FA+Player`).\n- **Убрано наложение кнопки аксессуаров:** кнопка `Accessories` перенесена в левый верхний угол портрета игрока (`x: 27, y: 9`), чтобы не перекрывать кнопку атрибутов `Apothic Attributes` справа.\n- Включает `EXPERIMENTAL_V1` + `showUnusedSlots: true` для меню аксессуаров и фикс нежити `zombie_variants` (`v2.1.2`). Совместима с текущим сервером SolidHost.",
+      "url": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.1.3/Create_Clockwork_Empire-2.1.3.zip",
+      "download_url": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.1.3/Create_Clockwork_Empire-2.1.3.zip",
+      "downloadUrl": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.1.3/Create_Clockwork_Empire-2.1.3.zip"
+    },
+    {
       "version": "2.1.2",
       "name": "2.1.2",
       "tag_name": "v2.1.2",
