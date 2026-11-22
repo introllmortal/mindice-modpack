@@ -3,6 +3,16 @@
   "id": "Create_Clockwork_Empire",
   "versions": [
     {
+      "version": "2.1.2",
+      "name": "2.1.2",
+      "tag_name": "v2.1.2",
+      "released": "2026-11-22T08:25:59Z",
+      "changelog": "### Что изменено в v2.1.2\n- **Улучшенное меню аксессуаров (`Accessories`):** по умолчанию включён расширенный экран (`EXPERIMENTAL_V1`) и отображение всех доступных слотов (`showUnusedSlots: true`) — реликвии, кольца, талисманы и слоты Aether теперь видны наглядной сеткой без прокрутки одной колонки.\n- **Фикс тегов нежити (`Zombie Variants`) для одиночной игры:** добавлен `zombie_variants_undead_tags.js` (на сервере SolidHost уже применён), чтобы чары «Освящение» (Corail Tombstone) и «Небесная кара» корректно работали по `Lush Zombie` и остальным 14 вариантам зомби.\n- Совместима с текущим сервером SolidHost без переустановки сервера и включает все исправления `v2.1.1`.",
+      "url": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.1.2/Create_Clockwork_Empire-2.1.2.zip",
+      "download_url": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.1.2/Create_Clockwork_Empire-2.1.2.zip",
+      "downloadUrl": "https://github.com/introllmortal/mindice-modpack/releases/download/v2.1.2/Create_Clockwork_Empire-2.1.2.zip"
+    },
+    {
       "version": "2.1.1",
       "name": "2.1.1",
       "tag_name": "v2.1.1",
